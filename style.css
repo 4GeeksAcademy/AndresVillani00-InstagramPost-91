@@ -1,27 +1,26 @@
-* {
-    margin-top: 0px;
-    padding: 0px;
-}
-
-body {
-    display: contents;
-}
-
 .post{
-    margin-right: 35%;
-    margin-left: 35%;
+    background-color: white;
 }
 
 .post-header {
-    justify-content: center;
     display: flex;
+    margin: auto;
     padding-top: 100px;
+}
+
+.post-header i {
+    margin: auto;
+}
+
+.post-header p {
+    margin: auto;
 }
 
 .post-header-title {
     display: flex;
     padding-left: 10px;
     padding-right: 350px;
+    background-color: white;
 }
 
 .post-img {
@@ -32,6 +31,8 @@ body {
 .post-body {
     display: flex;
     flex-direction: column;
+    margin: auto;
+    background-color: white;
 }
 
 .post-icons {
@@ -39,14 +40,24 @@ body {
     gap: 420px;
     padding: 5px;
     justify-content: center;
+    background-color: white;
+}
+.post-icons i {
+    background-color: white;
 }
 
-.post-body-description {
-    display: flex;
-    padding: 5px;
-    justify-content: center;
-    text-align: justify;
-    flex-direction: column;
+.post-body-description p {
+    margin: auto;
+    background-color: white;
+    
+    
+}
+
+.post-body-description strong {
+    margin: auto;
+    background-color: white;
+    
+    
 }
 
 img {
