@@ -6,21 +6,22 @@
     display: flex;
     margin: auto;
     padding-top: 100px;
+    width: 700px;
+    text-align: left;
 }
 
 .post-header i {
     margin: auto;
 }
 
-.post-header p {
-    margin: auto;
+#id-i-logo {
+    margin-inline-start: 100px;
+    margin-inline-end: 10px;
 }
 
-.post-header-title {
-    display: flex;
-    padding-left: 10px;
-    padding-right: 350px;
-    background-color: white;
+.post-header p {
+    margin-inline-end: 300px;
+    text-align: left;
 }
 
 .post-img {
@@ -49,7 +50,9 @@
 .post-body-description p {
     margin: auto;
     background-color: white;
-    
+    padding: 5px;
+    text-align: justify;
+    width: 500px;
     
 }
 
